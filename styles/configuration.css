@@ -73,3 +73,30 @@
     color: rgb(47,4,82);
     margin: 0.5rem 0;
 }
+
+@media (max-width: 480px){
+#game-configuration ol {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+#game-configuration {
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+#game-configuration li {
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    background-color: rgb(243, 227, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+}
